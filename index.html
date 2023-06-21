@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>clinicalform</title>
 </head>
 <body>
     
+    <h1>HTML Forms Tags and Attributes</h1>
+    <form>
+        <fieldset>
+            <legend>CONTACT FORM</legend>
+            <label for="firstname">First Name:</label>&nbsp;
+            <input type="text"name="firstname" id="firstname"size="50px" disabled value="Brian"/><br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text"name="lastname" id="lastname"size="50px"/><br><br>
+            <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" name="email" id="email"size="50"placeholder="Enternameyoureemail"/><br><br>
+            <label for="subject">Subject:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="subject" id="subject" size="50px"/><br><br>
+            <label for="message">Message:</label><br>
+            <textarea rows="10px" cols="50px" placeholder="Please Type youre message here"></textarea><br>
+            <input type="submit" name="submit" value="Submit"/>
+            <input type="reset" name="reset" value="Reset"/>
+            </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Sample Form Control</legend>
+            <label for="personname">Name:</label>
+            <input type="text" name="personalname" id="personname"><br>
+            <label for="birthday">Birthday</label>
+            <input type="date" name="birthdate" id="birthdate"><br>
+            <label for="timeappiontment">Time Appiontment</label>
+            <input type="datetime-local" name="timeappiontment" id="timeappiontment"><br>
+            <label for="time">Time</label>
+            <input type="time" name="time"><br>
+            <label for=""></label>
+            <input type="file"><br>
+            <label for="month">Month</label>
+            <input type="month" name="month" id="month"><br>
+            <label for="week">Week:</label>
+            <input type="week" name="Week" id="week"><br>
+            <label for="radiobutton">Are You Okay</label>
+            <input type="radio" name="radiobutton" id="radiobutton" value="Yes">Yes 
+            <input type="radio" name="radiobutton" id="radiobutton" value="No">No<br>s
+            <label for="volume">Increase Volume</label>&nbsp;
+            <input type="range" name="volume" id="volume"><br>
+            <label for="hobbies">Hobbies</label>&nbsp;
+            <input type="checkbox" name="hobby" value="hobby" id="hobby">hobby1&nbsp;
+            <input type="checkbox" name="hobby" value="hobby" id="hobby">hobby2&nbsp;
+            <input type="checkbox" name="hobby1" value="hobby1" id="hobby1">hobby 1&nbsp;
+            <input type="checkbox" name="hobby2" value="hobby2" id="hobby2">hobby 2&nbsp;
+            <input type="checkbox" name="hobby3" value="hobby3" id="hobby3">hobby 3&nbsp;<br>
+            <label for="number">Enter Age:</label>
+            <input type="number" name="age" id="age" min="0" max="123">
+            <input type="hidden" name="extrainfo" id="extrainfo" value="123"><br>
+
+            <label for="select">Select City:</label>
+            <select name="city" id="city">
+                <option value="caloocan">Caloocan</option>
+                <option value="caloocan">Caloocan</option>
+                <option value="caloocan">Caloocan</option>
+                <option value="caloocan">Caloocan</option>
+            </select>
+            <br>
+            <label for="regionProvince">Select region and province:</label>
+            <select name="regionprovince" id="regionprovince">
+                <optgroup label="region 1">
+                    <option value="pangasinan">Pangasinan</option>
+                    <option value="pangasinan1">Pangasinan</option>
+                    <option value="pangasinan2">Pangasinan</option>
+                    <option value="pangasinan3">Pangasinan</option>
+                <opt/group>
+                <optgroup label="region 2">
+                    <option value="pangasinan">Pangasinan</option>
+                    <option value="pangasinan4">Pangasinan</option>
+                    <option value="pangasinan5">Pangasinan</option>
+                    <option value="pangasinan6">Pangasinan</option>
+                <opt/group>
+                </select><br>
+                <input type="image" src="sub.jpeg" alt="submit-button" style="width:50px">
+                
+        </fieldset>
+    </form>
+
 </body>
 </html>
